@@ -1,0 +1,276 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/* style */
+body{
+ 	font: 16px/28px arial,sans-serif; 
+ 	background-image: url(../index/bg-image2.png);
+	color: #333; 
+}
+
+.container{
+    width: 800px;
+    margin: auto;
+	background-color: #f2ecdc;
+	border: 7px double black;
+	box-sizing: border-box;
+}
+
+
+/* header */
+.header{
+    padding: 20px;
+    padding-bottom: 10px;
+}
+
+.header .judul{
+	font-family: Bell MT;
+	font-size: 40px;
+	letter-spacing: 7px;
+}
+
+.header ul li{
+  	display: inline-block;
+  	margin-top: 10px;
+  	margin-right: 7px;
+}
+
+.header a{
+  	text-decoration: none;
+  	color: salmon;
+  	border-right: 3px solid black;
+  	padding-right: 10px;
+	font-family: Bell MT;
+	letter-spacing: 3px;
+	font-size: 18px;
+}
+
+.header a:hover{
+  	color: darkgreen;
+  	text-decoration: underline;
+}
+
+
+/* beranda */
+.hero-beranda{
+	height: 400px;
+  	background-image: url(../index/banner-beranda.jpg);
+  	background-size: cover;
+	/*  background-position, 0 pertama untuk kiri kanan, 0 kedua untuk atas bawah	*/
+  	background-position: 0 -10px;
+	border-top: 3px solid black;
+	border-bottom: 3px solid black;
+}
+
+.konten-beranda{
+	padding:20px;
+}
+
+.konten-beranda h2{
+	font-family: Bell MT;
+	font-size: 40px;
+	letter-spacing: 7px;
+	margin-bottom: 15px;
+}
+
+.konten-beranda p{
+	margin-bottom: 15px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+.logo{
+	width: 100px;
+	height: 100px;
+	float: left;
+}
+
+.logo2{
+	width: 100px;
+	height: 100px;
+	float: right;
+}
+
+.konten-beranda p.quote{
+	width: 400px;
+	margin: auto;
+	font-style: italic;
+}
+
+
+/* about */
+.konten-about{
+	padding:20px;
+	padding-top: 18px;
+	padding-bottom: 0px;
+	border-top: 3px solid black;
+}
+
+.konten-about h2{
+	font-family: Bell MT;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 7px;
+	margin-bottom: 15px;
+}
+
+.hero-about{
+	height: 400px;
+	margin: auto;
+	display: block;
+	margin-bottom: 10px;
+}
+
+.konten-about p{
+	margin-bottom: 15px;
+	font-size: 15px;
+	text-align: justify;
+}
+
+h2.konten-about{
+	font-family: Bell MT;
+	font-size: 40px;
+	text-align: center;
+	letter-spacing: 7px;
+	margin-bottom: 20px;
+}
+
+h3.konten-about{
+	font-family: Bell MT;
+	font-size: 18px;
+	letter-spacing: 5px;
+	margin-bottom: 0px;
+	padding-top: 7px;
+	padding-left: 7px;
+	border-top: 3px solid black;
+}
+
+.sd{
+	height: 400px;
+  	background-image: url(../about/sd.jpg);
+  	background-size: cover;
+	/* border-top: 3px solid black; */
+	border-bottom: 3px solid black;
+}
+
+.smp{
+	height: 400px;
+  	background-image: url(../about/smp.jpg);
+  	background-size: cover;
+	/* border-top: 3px solid black; */
+	border-bottom: 3px solid black;
+}
+
+.sma{
+	height: 400px;
+  	background-image: url(../about/sma.jpg);
+  	background-size: cover;
+	/* border-top: 3px solid black; */
+	border-bottom: 3px solid black;
+	background-position: 0 -50px;
+}
+
+.kuliah{
+	height: 400px;
+  	background-image: url(../about/kuliah.jpg);
+  	background-size: cover;
+	/* border-top: 3px solid black; */
+	border-bottom: 3px solid black;
+	background-position: 0 -100px;
+}
+
+
+/* berita KLP */
+.hero{
+  	height: 300px;
+  	background-image: url(../news/Berita-KLP48/banner-image.jpg);
+  	background-size: cover;
+	/*  background-position, 0 pertama untuk kiri kanan, 0 kedua untuk atas bawah	*/
+  	background-position: 0 -170px;
+}
+
+.konten{
+  	padding:20px;
+}
+
+.konten h2{
+  	font-size: 28px;
+  	font-weight: bold;
+}
+
+.konten .penulis{
+  	font-size: 12px;
+}
+
+.konten .penulis a{
+  	color: salmon;
+  	text-decoration: none;
+}
+
+.konten .penulis a:hover{
+  	color: #2ef02b;
+}
+
+.konten p{
+  	margin-bottom: 20px;
+  	font-size: 15px;
+  	text-align: justify;
+}
+
+.footer{
+  	background-color: #333;
+  	padding: 10px;
+}
+
+.footer .copy{
+  	color: #eaeaea;
+  	text-align: center;
+  	font-size: 12px;
+}
